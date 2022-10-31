@@ -33,5 +33,5 @@ function calculate() {
   const pyramid = (length * width * height) / 3
 
   // output
-  document.getElementById("area").innerHTML = "Volume: " + pyramid + " mm² "
+  document.getElementById("Volume").innerHTML = "Volume: " + pyramid + " mm² "
 }
