@@ -24,13 +24,13 @@ function myButtonClicked() {
 /**
  * This function calculates area and perimeter of rectangle.
  */
- function calculate() {
+function calculate() {
   // input
   const length = parseInt(document.getElementById("length-of-pyramid").value)
   const width = parseInt(document.getElementById("width-of-pyramid").value)
   const height = parseInt(document.getElementById("height-of-trapezoid").value)
   // process
-  const pyramid = (length * width * height) / 3 
+  const pyramid = (length * width * height) / 3
 
   // output
   document.getElementById("area").innerHTML = "Volume: " + pyramid + " mm² "
