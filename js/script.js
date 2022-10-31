@@ -10,8 +10,8 @@
  * Check servie worker.
  */
 if (navigator.serviceWorker) {
-  navigator.serviceWorker.register("/ICS2O-PWA-Test-1/sw.js", {
-    scope: "/ICS2O-PWA-Test-1/",
+  navigator.serviceWorker.register("/ISC2O-Unit-3-02/sw.js", {
+    scope: "/ISC2O-Unit-3-02/",
   })
 }
 
@@ -20,4 +20,18 @@ if (navigator.serviceWorker) {
  */
 function myButtonClicked() {
   document.getElementById("hello-world").innerHTML = "<p>Hello, World!</p>"
+}
+/**
+ * This function calculates area and perimeter of rectangle.
+ */
+ function calculate() {
+  // input
+  const length = parseInt(document.getElementById("length-of-pyramid").value)
+  const width = parseInt(document.getElementById("width-of-pyramid").value)
+  const height = parseInt(document.getElementById("height-of-trapezoid").value)
+  // process
+  const pyramid = (length * width * height) / 3 
+
+  // output
+  document.getElementById("area").innerHTML = "Volume: " + pyramid + " mm² "
 }
