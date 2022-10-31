@@ -28,7 +28,7 @@ function calculate() {
   // input
   const length = parseInt(document.getElementById("length-of-pyramid").value)
   const width = parseInt(document.getElementById("width-of-pyramid").value)
-  const height = parseInt(document.getElementById("height-of-trapezoid").value)
+  const height = parseInt(document.getElementById("height-of-pyramid").value)
   // process
   const pyramid = (length * width * height) / 3
 
